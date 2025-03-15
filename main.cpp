@@ -1,6 +1,3 @@
-#include <iostream>
-#include <chrono>
-#include <thread>
 #include <string>
 #include <vector>
 
@@ -51,9 +48,9 @@ int main() {
     };
 
     TimeLine tl(renderer, actions);
-    const string p = "/Users/Alexis/Documents/Code/C++/three-in-the-terminal/three-in-the-terminal/video.txt";
+    const string p = "/Users/Alexis/Documents/Code/C-C++/three-in-the-terminal/three-in-the-terminal/video.txt";
     tl.play(); // note : "tl.play(p)" joue la vidéo précisé dans le chemin
-    
+
 
     return 0;
 }

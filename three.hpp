@@ -275,7 +275,7 @@ public:
     Camera& camera();
     void render();
     // génère l'image constitué des intensités lumineuses
-    std::vector<std::vector<double> > create();
+    std::vector< std::vector<double> > create();
     // affiche l'image dans le terminal
     void print(std::vector<std::vector<double> > intensities) const;
     ~Renderer();

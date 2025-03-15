@@ -5,3 +5,5 @@
 Dans l'ensemble, le programme est plutôt simple à comprendre, si vous voulez découvrir tous les objets ainsi que leurs fonctions membres, lisez les commentaires de "three.hpp", il fait office de mini-documentation.
 
 Si des erreurs apparaissent, faites-moi signe et/ou corrigez-les. Il est possible qu'il y ait quelques bugs :)
+
+```three-ascii % g++ -std=c++14 main.cpp three.cpp -o main && ./main``` si vous voulez compiler le programme.

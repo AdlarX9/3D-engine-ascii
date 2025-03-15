@@ -680,7 +680,7 @@ Camera::~Camera() {}
 
 
 Renderer::Renderer(Scene& scene, Camera& camera) : m_scene(scene), m_camera(camera) {}
-Renderer::Renderer() : m_scene(Scene()), m_camera(Camera(1, 1, 1)) {}
+Renderer::Renderer() : m_scene(Scene()), m_camera(1, 1, 1) {}
 
 const unsigned int Renderer::matSize = 12;
 

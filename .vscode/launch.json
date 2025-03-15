@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/Alexis/Documents/Code/C++/three-in-the-terminal/three-in-the-terminal",
-      "program": "/Users/Alexis/Documents/Code/C++/three-in-the-terminal/three-in-the-terminal/build/Debug/outDebug"
+      "cwd": "/Users/Alexis/Documents/Code/C:C++/three-in-the-terminal/three-in-the-terminal",
+      "program": "/Users/Alexis/Documents/Code/C:C++/three-in-the-terminal/three-in-the-terminal/build/Debug/outDebug"
     }
   ]
 }
